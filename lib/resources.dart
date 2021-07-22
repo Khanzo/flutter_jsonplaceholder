@@ -1,0 +1,111 @@
+import 'dart:ui';
+
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
+
+class Strings {
+  static const usersList = 'Пользователи';
+  static const postsList = 'Посты';
+  static const albumsList = 'Альбомы';
+  static const commentsList = 'Комментарии:';
+  static const addComment = 'Добавить комментарий';
+  static const photosList = 'Фотографии';
+  static const title = 'jsonplaceholder.typicode';
+  static const emptyData = 'Нет данных';
+  static const noInternetConnection =
+      'Что-то пошло не так. Нет соединения с интернетом.';
+  static const somethingWentWrong = 'Ой, что-то пошло не так';
+
+  static const userName = "Имя";
+  static const userEmail = "Email";
+  static const userSite = "Сайт";
+  static const userPhone = "Телефон";
+  static const userAdress = "Адрес";
+  static const userWork = "Место работы";
+  static const commentBody = "Комментарий";
+}
+
+class AppColors {
+  static const colorWhite = Color(0xFFffffff);
+  static const blueGrey = Color(0xFF77869e);
+  static const gradientMain1 = Color(0xFF63b7ed);
+  static const gradientMain2 = Color(0xFF4d60ba);
+  static const gradientMain3 = Color(0xFF68e6b0);
+  static const popularPink = Color(0xFFfdafcd);
+  static const colorBar = Color(0xFF4D60BA);
+  static const textTitle = Color(0xFF292c36);
+  static const darkGradient2 = Color(0xFF2a3b8f);
+  static const darkGradient1 = Color(0xFF4d66ba);
+  static const buttonBlue = Color(0xFF4D60BA);
+  static const buttonRed = Color(0xFFE68568);
+  static const alertYellow = Color(0xFFF4BD37);
+  static const fabColor = Color(0xFFfeba00);
+  static const tabBarContentActive = Color(0xFF4d60ba);
+  static const tabBarActiveBackground = Color(0xFFEAEEFF);
+  static const tabBarIndicatorColor = Color(0x80ffffff);
+  static const shadow = Color.fromARGB(255, 222, 227, 244);
+  static const shadowDivider = Color.fromARGB(200, 222, 227, 244);
+  static const tabBarContentInactive = iconDefault;
+  static const backgroundStyle = Color(0xFF262935);
+  static const background = Color(0xFFFFFFFF);
+  static const tagGreen = Color(0xFF00A89D);
+  static const tagGreen1 = Color(0xFF5fbe7d);
+  static const tagGreen2 = Color(0xFF50ad6d);
+  static const tagGreen3 = Color(0xFF5fbe7d);
+  static const tagBlue = Color(0xFF368EDF);
+  static const tagPurple = Color(0xFF6F52EE);
+  static const tagYellow = Color(0xFFFFC659);
+  static const tagYellow1 = Color(0xFFf5bc32);
+  static const tagYellow2 = Color(0xFFfff1b4);
+  static const tagRed = Color(0xFFFF623B);
+  static const tagRed1 = Color(0xFFf69283);
+  static const tagGray = Color(0xFFc6cbd6);
+  static const textIconActive = Color(0xFF292C36);
+  static const textSub = Color(0xFF7E838D);
+  static const iconDefault = Color(0xFFAEB4BB);
+  static const filterActive = Color(0xFF99A7E9);
+  static const filterDefault = Color(0xFFF3F5FB);
+  static const textFilterActive = Color(0xFFFFFFFF);
+  static const textFilterDefault = Color(0xFF000000);
+  static const blackTextWithOpacity = Colors.black87;
+  static const barcodeShadowColor = Color(0x33000000);
+  static const barcodeHoleColor = Color(0x26000000);
+  static const shadowColor = Color(0xFFe4e6e9);
+  static const shadowColor1 = Color.fromARGB(25, 0, 0, 0);
+  static const primarySplash = Color(0xFFf0f2ff);
+  static const primaryHighlight = Color(0x88f0f2ff);
+  static const lightBlue = Color(0xFF66c3e9);
+  static const lightBlue1 = Color(0xFF3FB6DC);
+
+  static const borderGray = Color(0xFFe6e9f2);
+  static const borderPrimary = Color(0xFF9CCCFB);
+  static const divider = Color(0xFFDCDEE1);
+  static const modalBackground = Color(0xDD262935);
+  static const loadingIndicatorActive = Color(0xFF66C3E9);
+  static const loadingIndicatorBackground = Color(0xFF4D66BA);
+  static const bottomSheetBarrierColor = Color(0x7A262935);
+  static const flushbarColor = Color(0xFFF7D06F);
+  static const plusColor = Color(0xFF5585B5);
+  static const tagLightGreen = Color(0xFFd5f2de);
+  static const greenIconColor = Color(0xFF358d51);
+  static const overlayColor = Color(0xCC4d526a);
+  static const iconsRedColor = Color(0xFFEA5147);
+  static const baseYellow = Color(0xFFF4BD37);
+  static const timeSlotSelected = Color(0xFF3fb5dc);
+  static const pink = Color(0xFFFCAEDC);
+  static const macaroniAndCheese = Color(0xFFFFB900);
+  static const diaryGradientStart = Color(0xFFf0f2f8);
+  static const diaryGradientEnd = Color(0xFFdee1ec);
+  static const greyIcon = Color(0xFF647180);
+  static const buttonBlue2 = Color(0xFF4667C0);
+  static const activeSwitchBG = Color(0xFF94a8e4);
+  static const inactiveSwitchBG = Color(0xFFE6EAF3);
+  static const statusRed = Color(0xFFEA5147);
+  static const statusYellow = Color(0xFFDEA722);
+  static const dropDownShevron = Color(0xFF979797);
+  static const timeButton = Color(0xFFF3F5FC);
+  static const colorGrey = Color(0xFFC5C8D2);
+  static const bottomSheetIndicator = Colors.white38;
+  static const dividerColor = Color(0xFFEEEEEE);
+}
